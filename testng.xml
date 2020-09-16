@@ -5,6 +5,10 @@
     <classes>
       <class name="com.samir.automationframework.pomautomationframework.ElementTextBoxTest"/>
       <class name="com.samir.automationframework.pomautomationframework.ElementWebTableTest"/>
+      <class name="com.samir.automationframework.pomautomationframework.ElementTextBoxTest"/>
+      <class name="com.samir.automationframework.pomautomationframework.ElementsButtonsTest"/>
+      <class name="com.samir.automationframework.pomautomationframework.SliderTest"/>
+      <class name="com.samir.automationframework.pomautomationframework.TabsWindowsTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
