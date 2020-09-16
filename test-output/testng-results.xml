@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12700" started-at="2020-09-16T15:01:00 IST" finished-at="2020-09-16T15:01:12 IST">
+  <suite name="Default suite" duration-ms="11597" started-at="2020-09-16T21:22:35 IST" finished-at="2020-09-16T21:22:46 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12700" started-at="2020-09-16T15:01:00 IST" finished-at="2020-09-16T15:01:12 IST">
-      <class name="com.samir.automationframework.pomautomationframework.ElementTextBoxTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.samir.automationframework.pomautomationframework.ElementTextBoxTest@79079097]" name="setUp" is-config="true" duration-ms="8889" started-at="2020-09-16T15:01:00 IST" finished-at="2020-09-16T15:01:09 IST">
+    <test name="Default test" duration-ms="11597" started-at="2020-09-16T21:22:35 IST" finished-at="2020-09-16T21:22:46 IST">
+      <class name="com.samir.automationframework.pomautomationframework.SliderTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.samir.automationframework.pomautomationframework.SliderTest@79079097]" name="SetUp" is-config="true" duration-ms="7323" started-at="2020-09-16T21:22:35 IST" finished-at="2020-09-16T21:22:42 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ElementTextBox()[pri:0, instance:com.samir.automationframework.pomautomationframework.ElementTextBoxTest@79079097]" name="ElementTextBox" duration-ms="2708" started-at="2020-09-16T15:01:09 IST" finished-at="2020-09-16T15:01:11 IST">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="Slider()[pri:0, instance:com.samir.automationframework.pomautomationframework.SliderTest@79079097]" name="Slider" duration-ms="3415" started-at="2020-09-16T21:22:42 IST" finished-at="2020-09-16T21:22:45 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ElementTextBox -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.samir.automationframework.pomautomationframework.ElementTextBoxTest@79079097]" name="TearDown" is-config="true" duration-ms="1045" started-at="2020-09-16T15:01:11 IST" finished-at="2020-09-16T15:01:12 IST">
+        </test-method> <!-- Slider -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.samir.automationframework.pomautomationframework.SliderTest@79079097]" name="TearDown" is-config="true" duration-ms="825" started-at="2020-09-16T21:22:45 IST" finished-at="2020-09-16T21:22:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-      </class> <!-- com.samir.automationframework.pomautomationframework.ElementTextBoxTest -->
+      </class> <!-- com.samir.automationframework.pomautomationframework.SliderTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

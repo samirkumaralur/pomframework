@@ -6,7 +6,7 @@
       <class name="com.samir.automationframework.pomautomationframework.ElementTextBoxTest">
         <methods>
           <include name="setUp"/>
-          <include name="ElementTextBox"/>
+          <include name="ElementWebTable"/>
           <include name="TearDown"/>
         </methods>
       </class> <!-- com.samir.automationframework.pomautomationframework.ElementTextBoxTest -->
