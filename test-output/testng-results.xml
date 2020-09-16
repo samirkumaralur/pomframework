@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="43" started-at="2020-09-16T07:25:58 IST" finished-at="2020-09-16T07:25:58 IST">
+  <suite name="Default suite" duration-ms="12700" started-at="2020-09-16T15:01:00 IST" finished-at="2020-09-16T15:01:12 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="43" started-at="2020-09-16T07:25:58 IST" finished-at="2020-09-16T07:25:58 IST">
-      <class name="com.samir.automationframework.pomautomationframework.AppTest">
-        <test-method status="PASS" signature="shouldAnswerWithTrue()[pri:0, instance:com.samir.automationframework.pomautomationframework.AppTest@4493d195]" name="shouldAnswerWithTrue" duration-ms="7" started-at="2020-09-16T07:25:58 IST" finished-at="2020-09-16T07:25:58 IST">
+    <test name="Default test" duration-ms="12700" started-at="2020-09-16T15:01:00 IST" finished-at="2020-09-16T15:01:12 IST">
+      <class name="com.samir.automationframework.pomautomationframework.ElementTextBoxTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.samir.automationframework.pomautomationframework.ElementTextBoxTest@79079097]" name="setUp" is-config="true" duration-ms="8889" started-at="2020-09-16T15:01:00 IST" finished-at="2020-09-16T15:01:09 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- shouldAnswerWithTrue -->
-      </class> <!-- com.samir.automationframework.pomautomationframework.AppTest -->
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ElementTextBox()[pri:0, instance:com.samir.automationframework.pomautomationframework.ElementTextBoxTest@79079097]" name="ElementTextBox" duration-ms="2708" started-at="2020-09-16T15:01:09 IST" finished-at="2020-09-16T15:01:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ElementTextBox -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.samir.automationframework.pomautomationframework.ElementTextBoxTest@79079097]" name="TearDown" is-config="true" duration-ms="1045" started-at="2020-09-16T15:01:11 IST" finished-at="2020-09-16T15:01:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.samir.automationframework.pomautomationframework.ElementTextBoxTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
