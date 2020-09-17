@@ -6,7 +6,7 @@
       <class name="com.samir.automationframework.pomautomationframework.SliderTest">
         <methods>
           <include name="Slider"/>
-          <include name="SetUp"/>
+          <include name="setup"/>
           <include name="TearDown"/>
         </methods>
       </class> <!-- com.samir.automationframework.pomautomationframework.SliderTest -->

@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
 
-import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
@@ -32,7 +31,6 @@ public class SliderTest {
 		TakesScreenshot ts;
 		ts=((TakesScreenshot)driver);
 		File fs=ts.getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(new File("C:\\file\\test.png"), fs);
 	}
 	
 	@AfterTest
