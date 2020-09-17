@@ -1,5 +1,7 @@
 package com.samir.automationframework.pomautomationframework;
 
+import java.net.MalformedURLException;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -13,8 +15,8 @@ public class TabsWindowsTest
 	Logger log= LogManager.getLogger(TabsWindowsTest.class.getName());
 	
 	@BeforeTest
-	public void SetUp() {
-		driver= DriverGenerator.WebDriverCreator.getDriver("chrome");
+	public void SetUp() throws MalformedURLException {
+		driver= DriverGenerator.WebDriverCreator.getDriver("chromegrid");
 		driver.get("https://demoqa.com/browser-windows");
 	}
 	

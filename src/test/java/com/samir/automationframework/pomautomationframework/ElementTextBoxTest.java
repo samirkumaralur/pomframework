@@ -1,6 +1,8 @@
 package com.samir.automationframework.pomautomationframework;
 
 
+import java.net.MalformedURLException;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -20,8 +22,8 @@ public class ElementTextBoxTest
 	Logger log= LogManager.getLogger(ElementTextBoxTest.class.getName());
 	
 	@BeforeTest
-    public void setUp(){
-    	driver= WebDriverCreator.getDriver("chrome");
+    public void setUp() throws MalformedURLException{
+    	driver= WebDriverCreator.getDriver("chromegrid");
     	driver.get("https://demoqa.com/elements");
     }
 	

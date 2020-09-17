@@ -2,6 +2,7 @@ package com.samir.automationframework.pomautomationframework;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.MalformedURLException;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
@@ -18,8 +19,8 @@ public class SliderTest {
 	Logger log= LogManager.getLogger(TabsWindowsTest.class.getName());
 	
 	@BeforeTest
-	public void SetUp() {
-		driver= DriverGenerator.WebDriverCreator.getDriver("chrome");
+	public void SetUp() throws MalformedURLException {
+		driver= DriverGenerator.WebDriverCreator.getDriver("chromegrid");
 		driver.get("https://demoqa.com/slider");
 	}
 	

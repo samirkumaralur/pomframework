@@ -1,5 +1,7 @@
 package com.samir.automationframework.pomautomationframework;
 
+import java.net.MalformedURLException;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -12,8 +14,8 @@ public class ElementsButtonsTest {
 	WebDriver driver;
 	
 	@BeforeTest
-	public void setUp() {
-		driver=DriverGenerator.WebDriverCreator.getDriver("chrome");
+	public void setUp() throws MalformedURLException {
+		driver=DriverGenerator.WebDriverCreator.getDriver("chromegrid");
 		driver.get("https://demoqa.com/buttons");
 	}
 	
@@ -23,7 +25,6 @@ public class ElementsButtonsTest {
 			.Click_DoubleClickMe_Button()
 			.Click_RightClickMe_Button()
 			.Click_ClickMe_Button();
-		Thread.sleep(5000);
 	}
 	
 	@AfterSuite
