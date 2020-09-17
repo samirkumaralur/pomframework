@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11597" started-at="2020-09-16T21:22:35 IST" finished-at="2020-09-16T21:22:46 IST">
+  <suite name="Default suite" duration-ms="18523" started-at="2020-09-16T22:56:14 IST" finished-at="2020-09-16T22:56:33 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11597" started-at="2020-09-16T21:22:35 IST" finished-at="2020-09-16T21:22:46 IST">
+    <test name="Default test" duration-ms="18523" started-at="2020-09-16T22:56:14 IST" finished-at="2020-09-16T22:56:33 IST">
       <class name="com.samir.automationframework.pomautomationframework.SliderTest">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.samir.automationframework.pomautomationframework.SliderTest@79079097]" name="SetUp" is-config="true" duration-ms="7323" started-at="2020-09-16T21:22:35 IST" finished-at="2020-09-16T21:22:42 IST">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.samir.automationframework.pomautomationframework.SliderTest@2b71e916]" name="SetUp" is-config="true" duration-ms="13664" started-at="2020-09-16T22:56:14 IST" finished-at="2020-09-16T22:56:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="Slider()[pri:0, instance:com.samir.automationframework.pomautomationframework.SliderTest@79079097]" name="Slider" duration-ms="3415" started-at="2020-09-16T21:22:42 IST" finished-at="2020-09-16T21:22:45 IST">
+        <test-method status="PASS" signature="Slider()[pri:0, instance:com.samir.automationframework.pomautomationframework.SliderTest@2b71e916]" name="Slider" duration-ms="3791" started-at="2020-09-16T22:56:28 IST" finished-at="2020-09-16T22:56:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Slider -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.samir.automationframework.pomautomationframework.SliderTest@79079097]" name="TearDown" is-config="true" duration-ms="825" started-at="2020-09-16T21:22:45 IST" finished-at="2020-09-16T21:22:46 IST">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.samir.automationframework.pomautomationframework.SliderTest@2b71e916]" name="TearDown" is-config="true" duration-ms="1036" started-at="2020-09-16T22:56:32 IST" finished-at="2020-09-16T22:56:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->

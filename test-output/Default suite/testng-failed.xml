@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.samir.automationframework.pomautomationframework.ElementTextBoxTest">
+      <class name="com.samir.automationframework.pomautomationframework.SliderTest">
         <methods>
-          <include name="setUp"/>
-          <include name="ElementWebTable"/>
+          <include name="Slider"/>
+          <include name="SetUp"/>
           <include name="TearDown"/>
         </methods>
-      </class> <!-- com.samir.automationframework.pomautomationframework.ElementTextBoxTest -->
+      </class> <!-- com.samir.automationframework.pomautomationframework.SliderTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
