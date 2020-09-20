@@ -18,7 +18,7 @@ public class WebDriverCreator {
 			driver= new ChromeDriver();
 		}
 		else if(drivertype.equals("chromegrid")) {
-			String host="3.129.128.163";
+			String host="52.15.193.23";
 			DesiredCapabilities dc= new DesiredCapabilities().chrome();
 			String url= "http://"+host+":4444/wd/hub";
 			driver= new RemoteWebDriver(new URL(url), dc);
